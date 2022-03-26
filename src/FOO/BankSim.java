@@ -131,6 +131,7 @@ public class BankSim {
 		 * Constructor setting the arrival time at the current time
 		 * and generating a random number from 1 to 100 as the amount of
 		 * transactions
+		 * @param arrivalTime Time at which client arrives at the bank
 		 * */
 		public Client(int arrivalTime) {
 			this.arrivalTime = arrivalTime;
